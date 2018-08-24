@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- group标签 其表示一个组，checkableBehavior表示组中的所有菜单项只能单选
+     分组并加上id即可获得分割线-->
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_meiriganhuo"
+            android:title="每日干货"
+            android:icon="@mipmap/ic_ganhuo"/>
+        <item
+            android:id="@+id/nav_android"
+            android:title="Android"
+            android:icon="@mipmap/ic_android"/>
+        <item
+            android:id="@+id/nav_ios"
+            android:title="IOS"
+            android:icon="@mipmap/ic_ios"/>
+        <item
+            android:id="@+id/nav_app"
+            android:title="App"
+            android:icon="@mipmap/ic_app"/>
+        <item
+            android:id="@+id/nav_qianduan"
+            android:title="前端"
+            android:icon="@mipmap/ic_comupter"/>
+        <item
+            android:id="@+id/nav_more"
+            android:title="拓展资源"
+            android:icon="@mipmap/ic_more"/>
+        <item
+            android:id="@+id/nav_tuijian"
+            android:title="推荐"
+            android:icon="@mipmap/ic_tuijian"/>
+        <item
+            android:id="@+id/nav_fuli"
+            android:title="福利"
+            android:icon="@mipmap/ic_fuli"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_like"
+            android:title="收藏"
+            android:icon="@mipmap/ic_like"/>
+        <item
+            android:id="@+id/nav_night"
+            android:title="夜间模式"
+            android:icon="@mipmap/ic_nitht"/>
+        <item
+            android:id="@+id/nav_aboutme"
+            android:title="作者"
+            android:icon="@mipmap/ic_aboutme"/>
+    </group>
+</menu>
